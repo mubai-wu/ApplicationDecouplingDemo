@@ -1,0 +1,26 @@
+apply plugin: 'groovy'  // 因为plugin是由groovy语法编写，所以需要应用此插件
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation gradleApi() // 自定义插件中需要用到 gradle 的各种 api
+    implementation'com.android.tools.build:gradle-api:3.4.2'
+    implementation 'org.ow2.asm:asm:6.0'
+//    implementation 'org.ow2.asm:asm-util:6.0'
+//    implementation 'org.ow2.asm:asm-commons:6.0'
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
+
+group = 'com.wbh.decoupling.plugin'  // 自定义插件的组别
+version = '1.0.0'  // 自定义插件的版本号
+
+apply plugin: 'maven'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: uri('../maven'))  // 指定发布到的目录
+        }
+    }
+}

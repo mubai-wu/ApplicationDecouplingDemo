@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ApplicationDecouplingDemo.iml" filepath="$PROJECT_DIR$/ApplicationDecouplingDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WPlugin/WPlugin.iml" filepath="$PROJECT_DIR$/WPlugin/WPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/businesscn/businesscn.iml" filepath="$PROJECT_DIR$/businesscn/businesscn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/businessexp/businessexp.iml" filepath="$PROJECT_DIR$/businessexp/businessexp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/businesslayer/businesslayer.iml" filepath="$PROJECT_DIR$/businesslayer/businesslayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compile/compile.iml" filepath="$PROJECT_DIR$/compile/compile.iml" />
+    </modules>
+  </component>
+</project>
